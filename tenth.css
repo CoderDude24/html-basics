@@ -1,5 +1,5 @@
 #outer{
-    border-left:1px solid black ;
+    border-left:1px solid rgb(228, 95, 95) ;
     border-right:1px solid black ;
     border-bottom:1px solid black ;
     border-radius: 5px;
@@ -13,7 +13,7 @@ h2{
 }
 
 #inner{
-    border-bottom: 5px double rgb(181, 37, 21) ;
+    border-bottom: 5px double rgb(200, 132, 124) ;
     border-radius: 5px;
     margin: 10px;   
 }

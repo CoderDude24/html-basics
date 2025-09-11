@@ -1,133 +1,43 @@
 <html>
     <head>
         <title>
-            Advanced Profile Form
+            Images and links
         </title>
+
     </head>
     <body>
-        <h1>Advanced Profile Form</h1>
-    <fieldset>
-        <legend>Basic inputs</legend>
-        <label for="Full name" *>Full Name</label>
-        <input id = "full name" Full name="full name" type="text" placeholder="e.x. Aditya behl" required><br>
-        <br>
+        <h2>Images and links</h2>
+        <table border="1" cellpadding ="1" cellspacing="2">
 
-        <label for ="Email address"*>Email address</label>
-        <input id="Email address" Email address="Email address" type="email" placeholder ="adityabehl01@gmail.com" required><br>
-        <br>
+            <tr>
+                <th>Topic</th>
+                <th>Image</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>Images with a link</td>
+                <td>
+                    
+                        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?_gl=1*lc3yiz*_ga*MTg5ODI0NDU1LjE3NTY0NDEzNTE.*_ga_8JE65Q40S6*czE3NTY0NDEzNTEkbzEkZzEkdDE3NTY0NDE0MzckajYwJGwwJGgw"width="80" alt="Feather image">
+                    
+                    
+                </td>
+                <td>
+                    <a href="https://www.google.com/search?q=images&rlz=1C1ONGR_enIN1011IN1011&oq=images&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIPCAEQABhDGLEDGIAEGIoFMg8IAhAAGEMYsQMYgAQYigUyCggDEAAYsQMYgAQyDAgEEAAYQxiABBiKBTIKCAUQABixAxiABDIPCAYQABhDGLEDGIAEGIoFMgoIBxAAGLEDGIAEMgoICBAAGLEDGIAEMgoICRAAGLEDGIAE0gEJMzM5OWowajE1qAIMsAIB8QX6gsi5XsoatA&sourceid=chrome&ie=UTF-8#vhid=sKMM4eBjWSQEBM&vssid=_ryqxaMbSN7vu4-EPp4HzkQ8_41">webpage1</a><br>
+                    <a href="https://www.geeksforgeeks.org/">webpage2</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Image without a link/id</td>
+                <td><img src="image\Aircraft Carrier Wallpapers Wallpaper Cave.jpeg"height="80" width="80" alt ="Aircraft carrier"></td>
+                <td>
+                    <a href="https://www.google.com/?zx=1756442443733&no_sw_cr=1">webpage3</a><br>
 
-        <label for ="Password" *>Password</label>
-        <input id ="Password" Password="Password" type="password" minlength="6" placeholder="123@24" required ><br>
-         <br>
-
-        <label for="Confirm Password "*>Confirm Password</label>
-        <input id="Confirm Password" Confirm Password="Confirm Password" minlength="6" required><br>
-
-        
-    </fieldset>
-    <fieldset>
-        <legend>
-            Contact information
-        </legend>
-        <label for="Phone number" *>Phone number</label> 
-        <input id="Phone number" Phone number="Phone number" placeholder="9999999999" required ><br>
-        <br>
-        <label for="Website"*>Website</label>
-        <input id="Website" Website="Website" required><br>
-        <br>
-        <label for="Image"*>Image</label>
-        <input id ="Image" Image="Image" type="image" placeholder="image" required><br>
-        <br>
-    </fieldset>
-    <fieldset>
-        <legend>Selection input</legend>
-        <label for="Gender :"*></label><br>
-        <input type="radio" name="Gender" value="Male"/>Male</label>
-        <label for="Gender :"*></label><br>
-        <input type="radio" name="Gender" value ="Female"/>Female</label>
-        <label for ="Gender :"*></label><br>
-        <input type="radio" name="Gender" value="Ohters"/>Others</label>
-        <br>
-        <br>
-        <label for="Skills"*></label><br>
-        <input type="checkbox" Skills="Skills" value="HTML"/>HTML</label>
-        <label for="Skills"*></label><br>
-        <input type="checkbox" skills="Skills" value="CSS"/>CSS</label>
-        <label for="Skills"*></label><br>
-        <input type="checkbox" skills="skills" value="JAVASCRIPT" />JAVASCRIPT</label>
-        <label for="Skills"*></label><br>
-        <input type="checkbox" skills="skills" value="REACT" />REACT</label>
-        <label for="Skills"></label><br>
-        <input type="checkbox" skills="skills" value="ANGULAR" />ANGULAR</label>
-        <br>
-        <label for="Month"*>Month</label>
-        <input type="Month" name="Month" id="Month">
-        <br>
-        <br>
-        
+                    <a href="https://m.dominos.co.in/postorder-ui/login">Webpage4</a>
+                </td>
+            </tr>
 
 
-
-    </fieldset>
-    <fieldset>
-        <legend>Advanced Inputs</legend>
-        <label for="Date of Birth"*>Date of Birth</label><br>
-        <input id="Date of Birth" name="Date of Birth" type="date" placeholder="12-09-2002" required><br>
-        <br>
-    
-        <label for="Select a week"*>Select a week</label><br>
-        <input id="Select a week" name="Select a week" type="text" placeholder="e.x. monday" required><br>
-        <br>
-        <label for="Select a month"*>Select a month</label><br>
-        <input id="Select a month" name="Select a month" type="text" placeholder="e.x. January" required><br>
-        <br>
-        <label for="choose a time"*>choose a time</label>
-        <input id="choose a time" name="choose a time " type="time" placeholder="e.x.12:52" required><br>
-        <br>
-        <label for="Choose a local date and time"*>choose a local date and time</label><br>
-        <input id="choose a local date and time" name="choose a local date and time" type="datetime-local" required><br>
-        <br>
-        <label for="Pick Your favoraite color"*>Pick Your favoraite color</label><br>
-        <input id="Pick your favoraite color" name ="Pick your favoraite color" type="text" required><br>
-        <br>
-        <label for="Age"*>Age</label><br>
-        <input id="Age" name="Age" type="number" placeholder="e.x.21" required><br>
-        <br>
-        <label for="Range of experience"*>Range of experience</label>
-        <input id="Range of experience" name ="Range of experience" type="number" min="0" max="20" required><br>
-        <br>
-        <fieldset>
-            <legend>Text Inputs</legend>
-            <label for="About yourself"*>About yourself</label>
-            <input id="About yourself" name="About yourself" type="textarea" rows="4" placeholder="Tell us about yourself" ><br>
-            <br>
-            <label for="Address"*>Address</label>
-            <input id="Address" name="Address" rows="4" placeholder="Street,city,state,zip postal code">
-            <br>
-        </fieldset>
-        <fieldset>
-            <legend>Hidden Field</legend>
-            
-            <input type="hidden" name="Form-version" value="v2" >
-
-        </fieldset>
-        <fieldset>
-            <legend>Other Controls</legend>
-            
-            <button type="reset"*>Reset button</button>
-            <br>
-            <br>
-
-            <button type="Submit"*>Submit button</button>
-            
-        </fieldset>
-        <fieldset>
-            <label>Instructions</label>
-            
-        </fieldset>
-
-
-
-    </fieldset>
+        </table>
     </body>
 </html>

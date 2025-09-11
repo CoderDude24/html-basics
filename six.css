@@ -1,0 +1,38 @@
+html, body{
+  height: 100%;
+  background: linear-gradient(135deg, rgb(5, 53, 165), rgb(186, 186, 252));
+  color: white;
+}
+
+.main-box{
+  display: flex;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.visible{
+  overflow: visible;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.scroll{
+  overflow: scroll;
+}
+
+.overflow-x{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.overflow-y{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

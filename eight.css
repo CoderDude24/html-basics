@@ -1,0 +1,88 @@
+body {
+    background-image: url(./image/yellow\ flower.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+th {
+    color: rgb(0, 0, 0);
+}
+
+table {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.overflow {
+    height: 300px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-around;
+}
+
+.hidden {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.scroll {
+    height: 250px;
+    width: 250px;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+.auto {
+    height: 150px;
+    width: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid black;
+}
+
+.auto1 {
+    height: 150px;
+    width: 150px;
+    overflow-y: auto;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+
+.hidden1 {
+  overflow: hidden;
+  width: 150px;
+  height: 40px;
+  white-space: nowrap;
+  border: 1px solid black;
+}
+
+.ellipsis-box {
+      width: 130px;              /* fixed width */
+     height: 40px;
+      white-space: nowrap;       /* keep text on one line */
+      overflow: hidden;          /* hide overflow */
+      text-overflow: ellipsis;   /* show ... */
+      font-size: 16px;
+      border: 1px solid black;
+    }
+
+
+.visible {
+  overflow: visible;
+  width: 150px;
+  height:150px;
+  border: 1px solid black;
+}

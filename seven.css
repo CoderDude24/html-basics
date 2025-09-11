@@ -1,0 +1,99 @@
+body{
+  background-color: rgb(168, 231, 247);
+  padding: 40px 15px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container{
+  width: 100%;
+  max-width: 700px;
+}
+
+.heading{
+  background-color: rgb(90, 90, 248);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 15px 30px;
+  border-radius: 22px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.registration-form{
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 30px;
+}
+
+fieldset{
+  background-color:rgb(250, 250, 250);
+  padding: 10px 20px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+legend{
+  font-weight: bold;
+}
+
+.box{
+  margin-bottom: 24px;
+}
+
+label{
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.radio-label,
+.checkbox-label{
+  display: inline-flex;
+  font-size: 14px;
+  align-items: center;
+  margin-top: 7px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+textarea,
+input:not([type="checkbox"]):not([type="radio"]){
+  width: 100%;
+  max-width: 580px;
+}
+
+textarea,
+input{
+  margin: 5px 0px;
+  font-size: 14px;
+  padding: 6px 7px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit,
+.reset{
+  width: 100%;
+  max-width: 580px;
+  margin: 5px 4px;
+  font-size: 14px;
+  padding: 6px 7px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 4px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.submit{
+  background-color: rgb(156, 156, 170);
+}
+
+.reset{
+  background-color: rgb(233, 17, 17);
+}

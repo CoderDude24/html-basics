@@ -1,122 +1,134 @@
 <html>
     <head>
-    <title>
-        Advanced Table Example
-    </title>
-    <!-- <style>
-        table{
-            border-collapse: collapse;
-            width:70%
-            margin- bottom 30px;
-        }
-        th,td{
-            border:1px solid black;
-            padding:8px;
-            text-align:centre;
-        }
-        th{
-            background-color: #f2f2f2;
-        }
-        caption{
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-    </style> -->
+        <title>
+            Advanced Profile Form
+        </title>
+        <link rel="stylesheet" href="fourth.css">
+    </head>
+    <body>
+        <h1>Advanced Profile Form</h1>
+    <fieldset>
+        <legend>Basic inputs</legend>
+        <label for="Full name" *>Full Name</label>
+        <input id = "full name" Full name="full name" type="text" placeholder="e.x. Aditya behl" required><br>
+        <br>
+
+        <label for ="Email address"*>Email address</label>
+        <input id="Email address" Email address="Email address" type="email" placeholder ="adityabehl01@gmail.com" required><br>
+        <br>
+
+        <label for ="Password" *>Password</label>
+        <input id ="Password" Password="Password" type="password" minlength="6" placeholder="123@24" required ><br>
+         <br>
+
+        <label for="Confirm Password "*>Confirm Password</label>
+        <input id="Confirm Password" Confirm Password="Confirm Password" minlength="6" required><br>
+
+        
+    </fieldset>
+    <fieldset>
+        <legend>
+            Contact information
+        </legend>
+        <label for="Phone number" *>Phone number</label> 
+        <input id="Phone number" Phone number="Phone number" placeholder="9999999999" required ><br>
+        <br>
+        <label for="Website"*>Website</label>
+        <input id="Website" Website="Website" required><br>
+        <br>
+        <label for="Image"*>Image</label>
+        <input id ="Image" Image="Image" type="image" placeholder="image" required><br>
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>Selection input</legend>
+        <label for="Gender :"*></label><br>
+        <input type="radio" name="Gender" value="Male"/>Male</label>
+        <label for="Gender :"*></label><br>
+        <input type="radio" name="Gender" value ="Female"/>Female</label>
+        <label for ="Gender :"*></label><br>
+        <input type="radio" name="Gender" value="Ohters"/>Others</label>
+        <br>
+        <br>
+        <label for="Skills"*></label><br>
+        <input type="checkbox" Skills="Skills" value="HTML"/>HTML</label>
+        <label for="Skills"*></label><br>
+        <input type="checkbox" skills="Skills" value="CSS"/>CSS</label>
+        <label for="Skills"*></label><br>
+        <input type="checkbox" skills="skills" value="JAVASCRIPT" />JAVASCRIPT</label>
+        <label for="Skills"*></label><br>
+        <input type="checkbox" skills="skills" value="REACT" />REACT</label>
+        <label for="Skills"></label><br>
+        <input type="checkbox" skills="skills" value="ANGULAR" />ANGULAR</label>
+        <br>
+        <label for="Month"*>Month</label>
+        <input type="Month" name="Month" id="Month">
+        <br>
+        <br>
+        
+
+
+
+    </fieldset>
+    <fieldset>
+        <legend>Advanced Inputs</legend>
+        <label for="Date of Birth"*>Date of Birth</label><br>
+        <input id="Date of Birth" name="Date of Birth" type="date" placeholder="12-09-2002" required><br>
+        <br>
     
-     </head>
-     <body>
-        <table border="2" cellpadding="5" cellspacing="4">
-            <caption>Employee work hours report</caption>
-            <tr>
-                <th rowspan="2">Employee</th>
-                <th colspan="3">Work Hours</th>
-            </tr>
-            <tr>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-
-            </tr>
-            <tr>
-                <td>Amit</td>
-                <td>8</td>
-                <td>7</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>sneha</td>
-                <td>7</td>
-                <td>7</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>Ravi</td>
-                <td>7</td>
-                <td>7</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td colspan="3"><b>Total Hours
-                    (All Employees)</b></td>
-                    <td>66</td>
-            </tr>
-
-        </table>
-<hr> 
-        <!--University Exam timetable-->
-        <table border="3" cellpadding="5" cellspacing=""5>
-            <caption>University Exam Timetable Semester 1</caption>
-            <tr>
-                <th rowspan="2">Day</th>
-                <th colspan="2">Morning Session</th>
-                <th colspan="2">Afternoon Session</th>
-            </tr>
-            <tr>
-                <th>Subject</th>
-                <th>Time</th>
-                <th>Subject</th>
-                <th>Time</th>
-            </tr>
-            <tr>
-                
-                <td rowspan="2">Monday</td>
-                <td>Mathematics I</td>
-                <td>9:00 AM-11:00 AM</td>
-                <td rowspan="2">Computer science</td>
-                <td rowspan="2">2:00 PM - 5:00 PM</td>
-            </tr>
-            <tr>
-                
-                <td>Physics I</td>
-                <td>11:30 AM - 1:00 PM</td>
-                
-            </tr>
-            <tr>
-                <td rowspan="2">Tuesday</td>
-                <td>Chemistry</td>
-                <td>9:00 AM-11:00 AM</td>
-                <td rowspan="2">English literature</td>
-                <td rowspan="2">2:00 PM - 5:00 PM</td>
-            </tr>
-            <td>Biology</td>
-            <td>11:30 AM-1:00 PM</td>
-            <tr>
-            <td rowspan="1">Wednesday</td>
-            <td colspan="4">Holiday-No Exams</td>
-            </tr>
-
-            <tr>
-                <td rowspan="2">Thursday</td>
-                <td>Economics</td>
-                <td>9:00 AM - 11:00 AM</td>
-                <td rowspan="2">Statistics</td>
-                <td rowspan="2">2:00 PM - 5:00 PM</td>
-            </tr>
-            <td>History</td>
-            <td>11:30AM - 1:00 PM</td>
+        <label for="Select a week"*>Select a week</label><br>
+        <input id="Select a week" name="Select a week" type="text" placeholder="e.x. monday" required><br>
+        <br>
+        <label for="Select a month"*>Select a month</label><br>
+        <input id="Select a month" name="Select a month" type="text" placeholder="e.x. January" required><br>
+        <br>
+        <label for="choose a time"*>choose a time</label>
+        <input id="choose a time" name="choose a time " type="time" placeholder="e.x.12:52" required><br>
+        <br>
+        <label for="Choose a local date and time"*>choose a local date and time</label><br>
+        <input id="choose a local date and time" name="choose a local date and time" type="datetime-local" required><br>
+        <br>
+        <label for="Pick Your favoraite color"*>Pick Your favoraite color</label><br>
+        <input id="Pick your favoraite color" name ="Pick your favoraite color" type="text" required><br>
+        <br>
+        <label for="Age"*>Age</label><br>
+        <input id="Age" name="Age" type="number" placeholder="e.x.21" required><br>
+        <br>
+        <label for="Range of experience"*>Range of experience</label>
+        <input id="Range of experience" name ="Range of experience" type="number" min="0" max="20" required><br>
+        <br>
+        <fieldset>
+            <legend>Text Inputs</legend>
+            <label for="About yourself"*>About yourself</label>
+            <input id="About yourself" name="About yourself" type="textarea" rows="4" placeholder="Tell us about yourself" ><br>
+            <br>
+            <label for="Address"*>Address</label>
+            <input id="Address" name="Address" rows="4" placeholder="Street,city,state,zip postal code">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Hidden Field</legend>
             
+            <input type="hidden" name="Form-version" value="v2" >
+
+        </fieldset>
+        <fieldset>
+            <legend>Other Controls</legend>
             
-        </table>
-        <p><b>Note:</b>Students must arrive 30 minutes before exam start time</p>
-     </body>
+            <button type="reset"*>Reset button</button>
+            <br>
+            <br>
+
+            <button type="Submit"*>Submit button</button>
+            
+        </fieldset>
+        <fieldset>
+            <label>Instructions</label>
+            
+        </fieldset>
+
+
+
+    </fieldset>
+    </body>
 </html>
