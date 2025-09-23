@@ -1,0 +1,119 @@
+.background {
+    background-image: url("yellow flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+
+.welcome{
+    color:black;
+    font-size:24px;
+    text-align:center;
+    margin-top:50px;
+
+}
+.abc {
+    background-color: rgb(76, 76, 76);
+    margin-top:0px;
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-weight: bold;
+    margin-top:0px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.span1, .span2, .span3, .span4 {
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.span1:hover, .span2:hover, .span3:hover, .span4:hover {
+    color: yellow;
+}
+.span2{
+    text-align:right;
+    font-size:16px;
+    margin-left:10px;
+
+   
+}
+.span2:hover{
+    color:yellow;
+    cursor:pointer;
+}
+.span3{
+    text-align:right;
+    font-size:16px;
+    margin-left:10px;
+}
+.span3:hover{
+    color:yellow;
+    cursor:pointer;
+}
+.span4{
+    text-align:right;
+    font-size:16px;
+    margin-left:10px;
+}
+.span4:hover{
+    color:yellow;
+    cursor:pointer;
+}
+.justify{
+    text-align:justify;
+}
+.about{
+    text-align:center;
+    font-size:24px;
+    margin-top:50px;
+    color:black;
+    font-weight:bold;
+    font-style:arial;
+}
+.div1 {
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 40px;
+    flex-direction: row;
+}
+.div2{
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 40px;
+    margin-left: 20px;
+    flex-direction: row;
+    
+}
+.div3{
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 40px;
+    margin-left: 20px;
+    flex-direction: row;
+}
