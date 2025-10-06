@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    CLOSURE
+-> It is a combination of function bundled together with reference to its surrounding state.
+-> When you create a function inside another function, the inner one can still access the variables of the outer    function even after the outer one is done running.
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="uname"></h1>
+    <script>
+        function a() {
+            let name = 'Arth Vala';
+            let h1 = document.getElementById('uname');
+
+            function b() {
+                // h1.append('Your Name is: '+name);
+                //alert("Your Name is: " +name);
+            }
+
+            b(); 
+        }
+
+        a();
+
+
+        function outer(){
+            let counter = 0;
+
+            console.log("Outer Counter: " +counter);
+            
+            function inner(){
+                counter++;
+                console.log(counter);
+            }
+
+            inner();
+        }
+
+        outer();
+    </script>
+</body>
+
+</html>

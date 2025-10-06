@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Convert from Celcius to Farenheit</h1>
+
+    <div class="container">
+
+        <label for="numb">Enter Calcius: </label>
+        <input type="number" name="num" id="num">
+
+        <input type="submit" value="Convert" onclick="convertTemperature(num)">
+        
+    </div>
+    
+    <div>
+        <h1 id="res"></h1>
+    </div>
+
+
+    <div class="calculator">
+        <label for="n1">Number 1:</label>
+        <input type="number" name="n1" id="n1">
+       
+        <label for="n2">Number 2:</label>
+        <input type="number" name="n2" id="n2">
+
+        <input type="submit" value="Calculate">
+    </div>
+
+
+
+    <script src="tempConvert.js"></script>
+</body>
+</html>

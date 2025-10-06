@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="s1">Subject 1 Marks: </label>
+    <input type="number" name="s1" id="s1">
+
+    <label for="s1">Subject 2 Marks: </label>
+    <input type="number" name="s2" id="s2">
+
+    <label for="s1">Subject 3 Marks: </label>
+    <input type="number" name="s3" id="s3">
+
+
+    <input type="submit" value="Calculate Average" onclick="calculateAverage()">
+
+    <h3 id="res"></h3>
+    <h3 id="tot"></h3>
+
+    <script>
+
+        let s1 = document.getElementById('s1');
+        let s2 = document.getElementById('s2');
+        let s3 = document.getElementById('s3');
+
+
+        let res = document.getElementById('res');
+        let tot = document.getElementById('tot');
+
+        function calculateAverage(){
+            let totalMarks = Number(s1.value) + Number(s2.value) + Number(s3.value);
+            let avgMarks = totalMarks / 3;
+            console.log("Total Marks: " +totalMarks);
+            console.log("Total Marks: " +avgMarks);
+
+
+            if (avgMarks > 80){
+                res.innerText = "A";
+                tot.innerText = "Total: "+totalMarks;
+            }
+
+            else if(avgMarks > 60 && avgMarks < 70){
+                res.innerText = "B";
+                tot.innerText = "Total: "+totalMarks;
+            }
+
+            else if(avgMarks > 40 && avgMarks < 60){
+                res.innerText = "C";
+                tot.innerText = "Total: "+totalMarks;
+            }
+            else{
+                res.innerText = "Fail";
+                tot.innerText = "Total: "+totalMarks;   
+            }
+            }
+        
+
+    </script>
+</body>
+</html>
